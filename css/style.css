@@ -165,4 +165,13 @@ img {
     .steps .col{
       margin-bottom: 15px;
     }
+
+    .steps{
+      margin: 3rem 0 0;      
+    }
+
+    section.why-us{
+     background-color: #222222;
+     padding: 3rem 0 0;
+    }
 }
