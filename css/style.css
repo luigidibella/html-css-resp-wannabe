@@ -134,17 +134,35 @@ img {
 } */
 
 @media screen and (max-width: 768px){
-    body{
-      background-color: rgb(27, 147, 57);
-    }
+    /* body{
+      background-color: rgb(27, 147, 57);           \\DEBUG
+    } */
     
     .container{
       width: 90%;
     }
-  } 
-  
-  @media screen and (max-width: 480px){
-    body{
-      background-color: rgb(147, 6, 6);
+} 
+
+@media screen and (max-width: 480px){
+    /* body{
+        background-color: rgb(147, 6, 6);           \\DEBUG
+    } */
+    
+    .row{
+      width: 100%;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
     }
-  }
+
+    .lessons .col,
+    .steps .col,
+    .why-us .col-left,
+    .why-us .col-right{
+      width: 100%;
+    }
+
+    .steps .col{
+      margin-bottom: 15px;
+    }
+}
